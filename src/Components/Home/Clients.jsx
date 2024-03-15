@@ -24,7 +24,25 @@ const Clients = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className=" mx-[28rem] mt-[-3rem]">
+          <div className=" md:mx-[28rem] sm:mx-[12px] mx-[12px] mt-[-3rem]">
+            <dir className=" flex items-center justify-center relative top-20">
+              {" "}
+              <img src={user} alt="" />
+            </dir>
+
+            <div className=" bg-white py-12 px-8 rounded-md ">
+              <h1 className=" md:text-start text-center">
+                Vel officiis dolor ea illo aut eligendi ullam non laudantium
+                magnam et recusandae molestiae sit iure unde aut voluptate
+                quaerat. Id sunt provident quo possimus impedit vel doloremque
+                obcaecati qui ullam consectetur et ipsum omnis.
+              </h1>
+              <p className="md:text-start text-center font-bold ">Christine Beckam - Designer</p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="md:mx-[28rem] sm:mx-[12px] mx-[12px] mt-[-3rem]">
             <dir className=" flex items-center justify-center relative top-20">
               {" "}
               <img src={user} alt="" />
@@ -42,25 +60,7 @@ const Clients = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className=" mx-[28rem] mt-[-3rem]">
-            <dir className=" flex items-center justify-center relative top-20">
-              {" "}
-              <img src={user} alt="" />
-            </dir>
-
-            <div className=" bg-white py-12 px-8 rounded-md ">
-              <h1>
-                Vel officiis dolor ea illo aut eligendi ullam non laudantium
-                magnam et recusandae molestiae sit iure unde aut voluptate
-                quaerat. Id sunt provident quo possimus impedit vel doloremque
-                obcaecati qui ullam consectetur et ipsum omnis.
-              </h1>
-              <p>Christine Beckam - Designer</p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className=" mx-[28rem] mt-[-3rem]">
+          <div className="md:mx-[28rem] sm:mx-[12px] mx-[12px] mt-[-3rem]">
             <dir className=" flex items-center justify-center relative top-20">
               {" "}
               <img src={user} alt="" />

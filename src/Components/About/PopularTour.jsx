@@ -11,7 +11,7 @@ const PopularTour = () => {
     
   <div className=' flex flex-col gap-4 w-1/2'>
     <h2 className=' text-[#DF6951] font-bold'>TREND</h2>
-    <h1 className=' text-[33px] font-bold'>Our Popular Tour Plans</h1>
+    <h1 className=' text-[53px] font-bold'>Our Popular Tour Plans</h1>
     <p>Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium.</p>
   <div className=' flex items-center gap-12'>
     <div className=' w-[100px]'> 

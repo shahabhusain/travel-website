@@ -29,15 +29,15 @@ const Services = () => {
   return (
     <div className=" w-[80%] mx-auto mt-32">
       <h2 className=" text-[#DF6951] font-bold text-center">Category</h2>
-      <h1 className=" text-[33px] font-bold text-center">
+      <h1 className=" xl:text-[53px] md:text-[33px] text-[25px] font-bold text-center">
         We Offer Best Services
       </h1>
-      <div className=" flex items-center justify-between gap-12">
+      <div className=" flex flex-col md:flex-row items-center justify-between gap-12">
         {servicesItem.map((item) => (
           <div className=" flex flex-col items-center mt-16 justify-center gap-3 hover:shadow-md py-12 rounded-md hover:scale-[1.1] transition-all ease-in-out duration-300">
             <img className=" w-[44px]" src={item.img} alt="" />
-            <h1 className=" text-[22px] font-semibold">{item.title}</h1>
-            <p className=" text-center text-[#5E6282] text-[15px]">{item.subtitle}</p>
+            <h1 className=" md:text-[22px] text-[17px] font-semibold">{item.title}</h1>
+            <p className=" text-center text-[#5E6282] md:text-[15px] text-[12px]">{item.subtitle}</p>
           </div>
         ))}
       </div>

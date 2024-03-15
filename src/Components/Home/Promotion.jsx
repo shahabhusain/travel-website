@@ -2,7 +2,7 @@ import React from 'react'
 
 const Promotion = () => {
   return (
- <div className=' flex items-center mt-32'>
+ <div className=' flex flex-col md:flex-row items-center mt-32'>
  <div className='back2 bg-[#000]'>
  <div className=' flex flex-col gap-3 mt-20 items-center justify-center'>
  <h2 className=' font-bold text-white'>PROMOTION</h2>

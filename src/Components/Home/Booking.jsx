@@ -25,25 +25,25 @@ const Booking = () => {
     },
   ];
   return (
-    <div className=" flex gap-20 items-center justify-between w-[80%] mx-auto mt-32">
-      <div className=" w-1/2">
+    <div className=" flex flex-col md:flex-row gap-20 items-center justify-between w-[80%] mx-auto mt-32">
+      <div className=" md:w-1/2">
         <h2 className=" text-[#DF6951] font-bold">Fast & Easy</h2>
-        <h1 className=" text-[37px] font-bold">
+        <h1 className=" xl:text-[53px] md:text-[33px] text-[25px]  font-bold">
           Get Your Favourite Resort Bookings
         </h1>
-         <div className=" flex flex-col gap-4 mt-8">
+         <div className=" flex flex-col gap-8 mt-8">
          {bookingItem.map((item) => (
           <div className=" flex items-center gap-5">
             <img src={item.img} alt="" />
             <div>
-              <h1 className=" text-[15px] text-[#5E6282] font-[800]">{item.title}</h1>
-              <p className=" text-[#5E6282]">{item.subtitle}</p>
+              <h1 className=" md:text-[15px] text-[12px] text-[#5E6282] font-[800]">{item.title}</h1>
+              <p className=" text-[#5E6282] md:text-[15px] text-[12px]">{item.subtitle}</p>
             </div>
           </div>
         ))}
          </div>
       </div>
-      <img className=" w-1/2" src={booking} alt="" />
+      <img className=" md:w-1/2" src={booking} alt="" />
     </div>
   );
 };

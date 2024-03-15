@@ -431,7 +431,7 @@ const SinglePackafes = ({ id }) => {
         <>
          <div className=" w-[80%] mx-auto flex gap-20 mt-32">
           <div className=" w-full flex flex-col gap-5">
-           <div className=" flex gap-5">
+           <div className=" flex gap-5 w-full">
            <div className=" flex flex-col gap-5">
             <img className="" src={v1} alt="" />
             <img className="" src={v2} alt="" />
@@ -439,11 +439,13 @@ const SinglePackafes = ({ id }) => {
             </div>
             <img className="" src={s1} alt="" />
            </div>
+          
            <div className=" flex gap-5">
             <img src={h1} alt="" />
             <img src={h2} alt="" />
+            
            </div>
-           <img src={s} alt="" />
+           
           </div>
          <div className="  w-1/2 ">
                 <div className="flex flex-col gap-4 bg-[#f7f7f7] py-12 px-8">

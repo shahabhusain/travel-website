@@ -4,7 +4,7 @@ import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="back4 mt-12">
-      <div className=" flex items-center justify-between w-[80%] mx-auto pt-24">
+      <div className=" flex flex-col md:flex-row md:items-center justify-between md:w-[80%] w-[95%] mx-auto pt-24">
         <div className=" flex flex-col gap-3">
           <img className=" w-[155px]" src={logo} alt="" />
           <p className=" max-w-[222px]">Travel helps companies manage payments easily.</p>
@@ -42,7 +42,7 @@ const Footer = () => {
               type="text"
               placeholder="Your email Address"
             />
-            <button className=" bg-[#DF6951] py-3 px-6 text-white ">
+            <button className=" bg-[#DF6951] md:py-3 py-4 md:px-6 px-2 md:text-[16px] text-[12px] text-white ">
               Subscribe
             </button>
           </div>

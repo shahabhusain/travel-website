@@ -6,8 +6,8 @@ import img4 from "../../assets/img4.png";
 import img5 from "../../assets/img5.png";
 const Airlines = () => {
   return (
-    <div className=" bg-[#F7F7F7] w-full py-12 mt-[644px]">
-      <div className=" grid grid-cols-5 gap-12 w-[90%] mx-auto">
+    <div className=" bg-[#F7F7F7] w-full py-12 md:mt-[644px] xl:mt-[844px] mt-[600px]">
+      <div className=" grid md:grid-cols-5 sm:grid-cols-3 grid-cols-2  gap-12 w-[90%] mx-auto">
         <img src={img1} alt="" />
         <img src={img2} alt="" />
         <img src={img3} alt="" />
