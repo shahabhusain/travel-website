@@ -7,19 +7,19 @@ const Hero = () => {
   const [open1, setOpen1] = useState(false);
   return (
     <div className=" back absolute top-0 xl:h-[940px] md:h-[777px] h-[640px]">
-      <div className=" xl:mt-[240px] md:mt-[240px] mt-[180px] w-[80%] mx-auto flex flex-col gap-4">
+      <div className=" xl:mt-[240px] md:mt-[240px] mt-[160px] w-[80%] mx-auto flex flex-col gap-4">
         <img className=" w-[103px]" src={vector} alt="" />
         <h1 className=" xl:text-[54px] md:text-[33px] text-[25px] font-bold max-w-[655px] text-white">
           No matter where you’re going to, we’ll take you there
         </h1>
         <div className=" flex items-center gap-6 bg-[#ffffff8c] py-4 xl:px-12 md:px-6 px-2 relative w-fit">
           <div className=" flex items-center gap-12">
-            <h1 className=" text-white xl:text-[22px] sm:text-[12px] text-[10px]">Where To?</h1>
+            <h1 className=" text-white xl:text-[22px] sm:text-[12px] text-[8px]">Where To?</h1>
             {/* <div className=" w-[2px] h-full bg-[#f8f8f8] text-[#fff]">.</div> */}
           </div>
           <div className=" flex items-center gap-6">
             <div>
-              <h1 className=" text-white flex items-center gap-2 xl:text-[22px] sm:text-[12px] text-[10px]">
+              <h1 className=" text-white flex items-center gap-2 xl:text-[22px] sm:text-[12px] text-[8px]">
                 Travel Type{" "}
                 <span
                   className=" cursor-pointer"
@@ -32,7 +32,7 @@ const Hero = () => {
             
           </div>
           <div className=" flex items-center gap-6">
-            <h1 className=" text-white flex items-center gap-2 xl:text-[22px] sm:text-[12px] text-[10px]">
+            <h1 className=" text-white flex items-center gap-2 xl:text-[22px] sm:text-[12px] text-[8px]">
               Duration{" "}
               <span
                 className=" cursor-pointer"

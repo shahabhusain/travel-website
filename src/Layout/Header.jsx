@@ -55,7 +55,7 @@ const Header = () => {
       </div>
       {/* mobile */}
       <div className=" mx-12 flex md:hidden items-center justify-end ">
-      {isActive ? <span className=" text-[22px] text-black mt-5"><IoMdMenu /></span> : <span className=" text-[22px] text-white mt-5"><IoMdMenu /></span>}
+      {isActive ? <span className=" text-[22px] text-black "><IoMdMenu /></span> : <span className=" text-[22px] text-white"><IoMdMenu /></span>}
       </div>
       {/* mobile */}
     </div>
