@@ -6,8 +6,8 @@ import main from "../../assets/travles.png";
 const Package = () => {
   return (
     <div className=" mt-[33rem]">
-      <div className=" flex gap-20  w-[80%] mx-auto">
-        <div className=" grid grid-cols-2 gap-6 w-full">
+      <div className=" flex flex-col-reverse xl:flex-row gap-20  md:w-[80%] w-[90%] mx-auto">
+        <div className=" grid md:grid-cols-2 grid-cols-1 gap-6 w-full">
           {packagesItem.map((item) => (
             <div className=" hover:shadow-md hover:scale-[1.1] py-12 px-5 transition-all ease-in-out duration-300 rounded-xl">
               <Link to={`/package-single/${item.id}`}>
@@ -27,16 +27,16 @@ const Package = () => {
                   {item.icon2}
                 </h1>
               </div>
-              <h1 className=" text-[22px] font-bold">{item.title}</h1>
+              <h1 className=" text-[22px] font-bold mt-5">{item.title}</h1>
               <p className=" max-w-[305px]">{item.subtitle}</p>
             </div>
           ))}
         </div>
 
-        <div className="  w-1/2 ">
+        <div className="  xl:w-1/2 ">
           <div className="flex flex-col gap-4 bg-[#f7f7f7] py-12 px-8">
-            <h1 className=" text-[33px] font-bold">Plan Your Trip</h1>
-            <p>
+            <h1 className=" md:text-[33px] text-[22px] font-bold">Plan Your Trip</h1>
+            <p className=" text-[12px] md:text-[16px]">
               Ex optio sequi et quos praesentium in nostrum labore nam rerum
               iusto aut magni nesciunt? Quo quidem neque iste expedita est dolo.
             </p>
@@ -57,7 +57,7 @@ const Package = () => {
               Book Now
             </button>
           </div>
-          <img className=" mt-[34rem]" src={main} alt="" />
+          <img className=" mt-[34rem] xl:flex hidden" src={main} alt="" />
         </div>
       </div>
     </div>

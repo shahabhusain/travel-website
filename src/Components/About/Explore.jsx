@@ -54,7 +54,7 @@ const Explore = () => {
       <h2 className=' text-[#DF6951] text-center font-bold mt-24'>EXPLORE ME</h2>
       <h1 className=' text-[33px] font-bold text-center'>Our International Packages</h1>
     </div>
-    <div className=' grid grid-cols-4 mt-12'>
+    <div className=' grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 mt-12'>
       {
         explore.map((item)=>(
           <div className=' overflow-hidden'>
